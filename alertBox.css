@@ -1,0 +1,27 @@
+.bigBox{
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: fixed;
+left: 30%;
+top: 30%;
+background-color: pink;
+
+}
+button{
+    margin:30px 20px ;
+}
+.textBox{
+padding: 30px;
+position: relative;/*position relative for text will be on top above pink box*/
+width: 50%;
+height: 600px;
+margin: auto;
+text-align: justify;/*make text left and right equal line*/
+overflow: scroll;/* put bar scroll up and down*/
+}
